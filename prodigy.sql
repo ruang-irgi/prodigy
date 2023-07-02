@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 01, 2023 at 12:20 PM
+-- Generation Time: Jul 02, 2023 at 05:23 AM
 -- Server version: 10.4.16-MariaDB
 -- PHP Version: 7.4.12
 
@@ -41,13 +41,7 @@ CREATE TABLE `registrasi` (
 --
 
 INSERT INTO `registrasi` (`Username`, `Nama`, `Email`, `Gender`, `Usia`, `Password`) VALUES
-('1910611011', 'dsd', 'bunayya@gmail.com', 'laki', 34, 'tt'),
-('2110432012', 'farhan', 'bunayyafarhan@gmail.com', 'laki', 21, 'bunayya'),
-('22222', 'bunay', 'ayaa@gmail.com', 'padusi', 22, 'jaya'),
-('adfc', 'vadv', 'bunayya@gmail.com', 'padusi', 34, 'vdrwsvgd'),
-('cacat', 'dsd', 'ayaa@gmail.com', 'laki', 34, 'farte'),
-('cacatt', 'dsd', 'ayaa@gmail.com', 'laki', 34, 'qqqq'),
-('narwen', 'bunay', 'ayaa@gmail.com', 'padusi', 43, 'pak21');
+('fiwa', 'fikri', 'fiwa@family', 'cwk', 17, 'wawa');
 
 -- --------------------------------------------------------
 

@@ -18,7 +18,12 @@
 		</tr>
 		<tr><td colspan="2">
 			<?php 
-				if(isset($_POST['lihat'.$i])){echo '<iframe width="400" height="225" src="https://www.youtube.com/embed/'.$link[1].'"></iframe>';}
+				if(isset($_POST['lihat'.$i])){
+					$lihat = $link[2] + 1;
+					$no = $link[0];
+					$query = mysqli_query($koneksi, "update video_java set dilihat='$lihat' where no='$no'");
+					echo '<iframe width="400" height="225" src="https://www.youtube.com/embed/'.$link[1].'?autoplay=1&mute=1"></iframe>';
+				}
 			?>
 		</td></tr>
 	<?php $i = $i + 1;} ?>
